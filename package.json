@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "jshint": "^2.13.5",
+    "three": "^0.144.0"
+  },
+  "name": "ifcjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^14.0.1",
+    "rollup": "^2.79.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
